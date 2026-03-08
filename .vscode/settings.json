@@ -1,0 +1,17 @@
+{
+    // 关闭自动缩进检测，完全听从 tabSize 设置
+    "editor.detectIndentation": false,
+    // C/C++ 格式化核心设置（移除了 BasedOnStyle，直接指定参数）
+    "C_Cpp.clang_format_fallbackStyle": "{ BreakBeforeBraces: Attach, IndentWidth: 4, AccessModifierOffset: -4, ColumnLimit: 120 }",
+    // 针对 C++ 文件的编辑器设置
+    "[cpp]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4
+    },
+    // 针对 C 文件的编辑器设置
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.tabSize": 4
+    }
+}
