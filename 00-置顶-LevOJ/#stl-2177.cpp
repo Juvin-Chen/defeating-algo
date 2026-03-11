@@ -1,3 +1,5 @@
+// LevOJ P2177 记忆碎片
+
 #include <iostream>
 #include <map>
 #include <string>
@@ -5,11 +7,17 @@
 using namespace std;
 
 int main() {
+    // 提速
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
     int q;
     cin >> q;
     string str;
     int sign, num;
-    map<string, int> m;
+
+    // 这题数值可能超出int，要开long long
+    map<string, long long> m;
     while (q--) {
         cin >> sign;
         switch (sign) {
@@ -20,7 +28,7 @@ int main() {
         }
         case 2: {
             cin >> str >> num;
-            if (m[str] < num) {
+            if (m.find(str) == m.end() || m[str] < num) { // 不存在 / 数量不足
                 cout << -1 << endl;
                 continue;
             } else {
@@ -36,6 +44,7 @@ int main() {
             } else {
                 cout << 0 << endl;
             }
+            break;
         }
         }
     }

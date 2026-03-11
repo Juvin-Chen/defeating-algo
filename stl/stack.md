@@ -1,4 +1,4 @@
-### STL 容器小贴士：Stack
+### Stack
 
 `stack` 是一种**后进先出 (LIFO, Last-In-First-Out)** 的容器适配器。 它就像一个只能从顶部放书、只能从顶部取书的箱子。
 

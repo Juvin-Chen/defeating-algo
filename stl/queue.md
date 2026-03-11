@@ -1,4 +1,4 @@
-### STL 容器小贴士：Queue
+### Queue
 
 `queue` 是一种**先进先出 (FIFO, First-In-First-Out)** 的容器适配器。 它就像现实生活中的排队：新来的人只能站在队尾（push），办理业务的人只能从队头离开（pop）。
 

@@ -1,0 +1,30 @@
+# C++编译产物
+*.o         # 编译生成的目标文件
+*.obj       # Windows下的目标文件
+*.exe       # 可执行程序
+*.out       # Linux下的可执行程序
+*.dll       # 动态链接库
+*.so        # Linux下共享库
+*.dylib     # macOS下动态库
+
+# 构建/IDE目录
+build/      # 编译构建目录（如CMake生成的build）
+bin/        # 二进制输出目录
+.vscode/    # VSCode本地配置（如调试配置，无需共享）
+*.vcxproj   # VS工程文件（若团队统一用则可取消屏蔽）
+*.sln       # VS解决方案文件
+
+#编辑器/临时文件
+.idea/      # IDEA系列编辑器配置
+*.swp       # Vim临时文件
+*.swo       # Vim临时文件
+*~          # 编辑器临时备份文件
+.DS_Store   # macOS系统文件
+Thumbs.db   # Windows系统缓存
+Desktop.ini # Windows文件夹配置
+
+# 日志/临时文件
+*.log       # 程序运行日志
+logs/       # 日志目录
+*.tmp       # 临时文件
+.cache/     # 缓存目录

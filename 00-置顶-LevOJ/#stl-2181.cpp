@@ -1,8 +1,11 @@
+// LevOJ P2181 信号过滤器
+
 #include <iostream>
 #include <queue>
 
 using namespace std;
 
+// 大根堆
 priority_queue<int> pq;
 
 int main() {

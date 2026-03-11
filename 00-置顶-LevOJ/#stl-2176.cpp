@@ -1,3 +1,5 @@
+// LevOJ P2176 幻境拍卖行
+
 #include <iostream>
 #include <set>
 
@@ -11,9 +13,10 @@ int main() {
     while (q--) {
         cin >> sign >> num;
         switch (sign) {
-        case 1:
+        case 1: {
             ms.insert(num);
             break;
+        }
         case 2: {
             auto it = ms.find(num);
             if (it != ms.end()) {

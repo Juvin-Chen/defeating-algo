@@ -1,4 +1,4 @@
-### STL 容器小贴士：Map
+### Map
 
 `map` 是一个**关联容器**，它存储的是**键值对 (Key-Value Pair)**。 你可以把它想象成一个超级数组，这个数组的下标（Key）不一定是整数，可以是字符串、结构体甚至是其他容器。 例如： `map<string, int> backpack` 就可以理解为 `backpack["fire"] = 10` 。
 

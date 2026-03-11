@@ -1,3 +1,5 @@
+// LevOJ P2174 动态星图
+
 #include <algorithm>
 #include <iostream>
 #include <vector>
@@ -16,18 +18,14 @@ int main() {
     for (auto &vec : adj) {
         sort(vec.begin(), vec.end());
     }
-    vector<int> ans;
     while (q--) {
         int a, b;
         cin >> a >> b;
         if (b <= adj[a].size()) {
-            ans.push_back(adj[a][b - 1]);
+            cout << adj[a][b - 1] << endl;
         } else {
-            ans.push_back(-1);
+            cout << -1 << endl;
         }
-    }
-    for (auto i : ans) {
-        cout << i << endl;
     }
     return 0;
 }
