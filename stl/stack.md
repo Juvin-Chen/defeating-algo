@@ -1,8 +1,9 @@
-### Stack
+# Stack
 
+### 这是什么？ 
 `stack` 是一种**后进先出 (LIFO, Last-In-First-Out)** 的容器适配器。 它就像一个只能从顶部放书、只能从顶部取书的箱子。
 
-**常用方法举例：**
+### 常用方法举例：
 
 ```cpp
 #include <stack>
