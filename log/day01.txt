@@ -1,4 +1,5 @@
 Day01
+date:3.10
 1._levoj/monotonic_stack
 2.linear_dp/1216 
 3.templatr_input
